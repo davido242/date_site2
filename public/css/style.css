@@ -1,0 +1,76 @@
+*{
+	box-sizing: border-box;
+	font-size: 1.5em;
+}
+body{
+	padding: 0;
+	margin: 0;
+	background-image: url(https://lpmedia.justservingfiles.net/img/_pictures/fsk18/l/da3.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.dark_rum{
+	background: #000;
+	position: fixed;
+	width: 100%;
+	padding: 0 15%;
+	color: navy;
+}
+.incat{
+	background: rgb(218 38 104 / 49%);
+	width: 100%;
+	line-height: 50px;
+	position: relative;
+	z-index: -1;
+}
+.cat{
+	width: 40%;
+	margin: 0 30%;
+	overflow-y: scroll;
+	font-size: 12px;
+	max-height: 450px;
+}
+
+.cat ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+.cat ul li{
+	list-style: none;
+}
+.circle1{
+	width: 400px;
+	height: 400px;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	font-size: 24px;
+	padding: 100px 20px;
+	margin: 100px 37%;
+	border-radius: 50%;
+	position: absolute;
+	z-index: -2;
+}
+.circle2{
+	margin: 800px 37%;
+}
+
+.circle3{
+	margin: 1500px 37% 0px 40%;
+}
+
+footer{
+	background: navy;
+	color: #fff;
+	height: 300px;
+	width: 100%;
+	margin: 2000px 0px 0px 0px;
+	left: 0px;
+	bottom: 0px;
+	z-index: -2;
+	text-align: center;
+
+}
+.footer .fit{
+	display: inline;
+}

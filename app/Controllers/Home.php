@@ -19,6 +19,12 @@ class Home extends BaseController
 		return view('header');
 	}
 
+
+	public function t_page()
+	{
+		return view('test');
+	}
+
 	//--------------------------------------------------------------------
 
 }
